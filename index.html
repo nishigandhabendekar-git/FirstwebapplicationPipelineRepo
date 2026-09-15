@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Web Application</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+    background:#f4f6f9;
+}
+
+header{
+    background:#0d6efd;
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+nav{
+    background:#343a40;
+    display:flex;
+    justify-content:center;
+}
+
+nav a{
+    color:white;
+    padding:15px 25px;
+    text-decoration:none;
+}
+
+nav a:hover{
+    background:#0d6efd;
+}
+
+.container{
+    width:90%;
+    margin:30px auto;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 5px 10px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+button{
+    margin-top:15px;
+    padding:10px 20px;
+    border:none;
+    background:#0d6efd;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#084298;
+}
+
+footer{
+    margin-top:40px;
+    background:#343a40;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<h1>My Web Application</h1>
+<p>Responsive HTML Template</p>
+</header>
+
+<nav>
+<a href="https://nishi23072026.s3.ap-south-1.amazonaws.com/home.html">Home</a>
+<a href="https://nishi23072026.s3.ap-south-1.amazonaws.com/about.html">About</a>
+<a href="#">Services</a>
+<a href="#">Contact</a>
+<a>adarsh</a>
+</nav>
+
+<div class="container">
+
+<div class="cards">
+
+<div class="card">
+<h2>Dashboard</h2>
+<p>View all analytics and reports.</p>
+<button>Open</button>
+</div>
+
+<div class="card">
+<h2>Users</h2>
+<p>Manage your users easily.</p>
+<button>Manage</button>
+</div>
+
+<div class="card">
+<h2>Reports</h2>
+<p>Generate PDF and Excel reports.</p>
+<button>Generate</button>
+</div>
+
+<div class="card">
+<h2>Settings</h2>
+<p>Customize your application.</p>
+<button>Settings</button>
+</div>
+
+</div>
+
+</div>
+
+© 2026 My Web Application | Designed with HTML & CSS
+</footer>
+
+</body>
+</html>
